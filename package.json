@@ -1,0 +1,32 @@
+{
+     "name": "myApp",
+     "version": "0.0.1",
+     "description": "My Project",
+     "dependencies": {
+          "@sendgrid/mail": "^6.5.1",
+          "body-parser": "^1.19.0",
+          "cors": "^2.8.5",
+          "express": "*",
+          "forever": "^1.0.0"
+     },
+     "engine": "node >=0.6.x",
+     "scripts": {
+          "start": "node server.js",
+          "start:heroku": "node server",
+          "debug": "nodemon --inspect server.js"
+     },
+     "main": "server.js",
+     "repository": {
+          "type": "git",
+          "url": ""
+     },
+     "author": "myApp",
+     "license": "myApp",
+     "bugs": {
+          "url": ""
+     },
+     "homepage": "/",
+     "devDependencies": {
+          "nodemon": "^1.19.4"
+     }
+}
